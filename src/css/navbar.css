@@ -13,7 +13,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: darkgray;
+    color: #C1BFBF;
 }
 .nav{
     display: flex;
@@ -21,7 +21,7 @@ a {
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: rgb(0, 28, 73);
+    background: #222222;
 }
 
 .nav ul{
@@ -35,8 +35,9 @@ a {
 	margin: 20px;
 }
 
-.nav ul li a:before{
-    transition: all .5s;
+.nav ul li a:before,
+.nav ul li a:after{
+    transition: all .3s;
 }
 
 .nav ul li a:after{
@@ -48,7 +49,7 @@ a {
     width: 0%;
     content: '.';
     color: transparent;
-    background: red;
+    background: #F9FF9A;
     height: 1px;
     text-align: left;
     content: '.';
@@ -65,7 +66,7 @@ a {
 }
 
 .nav ul li a:hover{
-    color: black;
+    color: #F9FF9A;
     z-index: 1;
 }
 .nav ul li a:hover:after{
@@ -96,5 +97,7 @@ a {
 }
 
 @media screen and (max-width: 768px){
-
+    .nav__toggler {
+         display: block;
+    }
 }
