@@ -1,5 +1,5 @@
 import React from 'react';
-import 'css/navbar.css'
+import '../navbar.css'
 
 function Navbar(props) {
     return (
@@ -7,7 +7,7 @@ function Navbar(props) {
             <a href="" className="brand">LOGO</a>
             <ul className="nav__menu">
                 <li className='nav__item'>
-                    <a href="" className="nav__link">Các khóa họchọc</a>
+                    <a href="" className="nav__link">Các khóa học</a>
                 </li>
                 <li className='nav__item'>
                     <a href="" className="nav__link">Tuyển dụng</a>
